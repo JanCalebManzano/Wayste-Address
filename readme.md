@@ -71,7 +71,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## Address API
+## API Documentation
+
+[Postman Collection Link](https://www.getpostman.com/collections/62b4659d7563a14e0662)
+
+```html
 <div class="postman-run-button"
 data-postman-action="collection/import"
 data-postman-var-1="62b4659d7563a14e0662"></div>
@@ -84,3 +88,4 @@ data-postman-var-1="62b4659d7563a14e0662"></div>
     ));
   }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
 </script>
+```
