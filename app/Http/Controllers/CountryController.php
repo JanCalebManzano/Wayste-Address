@@ -17,7 +17,7 @@ class CountryController extends Controller
      */
     public function index(): CountryResourceCollection
     {
-        return new CountryResourceCollection(Country::paginate());
+        return new CountryResourceCollection(Country::get());
     }
 
     /**
@@ -30,4 +30,5 @@ class CountryController extends Controller
     {
         return new CountryResource($country);
     }
+
 }

@@ -14,7 +14,6 @@ class RegionResource extends JsonResource
      */
     public function toArray($request)
     {
-        // return parent::toArray($request);
         return [
             'region_id' => $this->region_id,
             'country' => new CountryResource($this->country),

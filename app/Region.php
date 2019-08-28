@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Region extends Model
 {
+    protected $table = 'regions';
     protected $primaryKey = 'region_id';
     protected $fillable = ['country_id', 'code', 'description'];
 
@@ -16,6 +17,6 @@ class Region extends Model
 
     public function provinces()
     {
-        return $this->hasMany('App\Province', 'region_id', 'region_id');
+        return $this->hasMany('App\Province', $this->primaryKey, $this->primaryKey);
     }
 }

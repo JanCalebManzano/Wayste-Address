@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Country;
-use App\Http\Resources\ProvinceResource;
-use App\Http\Resources\ProvinceResourceCollection;
 use App\Region;
 use App\Province;
+use App\Http\Resources\ProvinceResource;
+use App\Http\Resources\ProvinceResourceCollection;
 use Illuminate\Http\Request;
 
 class ProvinceController extends Controller

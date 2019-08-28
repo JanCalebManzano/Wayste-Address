@@ -22,3 +22,7 @@ Route::apiResource('/countries', 'CountryController');
 Route::apiResource('/countries.regions', 'RegionController');
 
 Route::apiResource('/countries.regions.provinces', 'ProvinceController');
+
+Route::apiResource('/countries.regions.provinces.muncities', 'MuncityController');
+
+Route::apiResource('/countries.regions.provinces.muncities.barangays', 'BarangayController');

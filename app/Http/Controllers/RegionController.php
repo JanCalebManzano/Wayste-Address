@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Resources\RegionResource;
-use App\Http\Resources\RegionResourceCollection;
 use App\Country;
 use App\Region;
+use App\Http\Resources\RegionResource;
+use App\Http\Resources\RegionResourceCollection;
 use Illuminate\Http\Request;
 
 class RegionController extends Controller
@@ -38,4 +38,5 @@ class RegionController extends Controller
                     ->first();
         return new RegionResource($region);
     }
+
 }
